@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-11T21:09:53Z" name="Surefire suite" finished-at="2026-03-11T21:09:57Z" duration-ms="3560">
+  <suite started-at="2026-03-12T00:03:44 EET" name="Sana Platform API Automation" finished-at="2026-03-12T00:03:47 EET" duration-ms="3091">
     <groups>
     </groups>
-    <test started-at="2026-03-11T21:09:53Z" name="Surefire test" finished-at="2026-03-11T21:09:57Z" duration-ms="3560">
+    <test started-at="2026-03-12T00:03:44 EET" name="Sana Platform Flow Tests" finished-at="2026-03-12T00:03:47 EET" duration-ms="3091">
       <class name="com.apitest.tests.SanaPlatformTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.apitest.tests.SanaPlatformTest@36f1046f]" started-at="2026-03-11T21:09:53Z" name="setup" finished-at="2026-03-11T21:09:55Z" duration-ms="1456" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.apitest.tests.SanaPlatformTest@5c9ac4cc]" started-at="2026-03-12T00:03:44 EET" name="setup" finished-at="2026-03-12T00:03:45 EET" duration-ms="1323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sendOtpTest()[pri:1, instance:com.apitest.tests.SanaPlatformTest@36f1046f]" started-at="2026-03-11T21:09:55Z" name="sendOtpTest" finished-at="2026-03-11T21:09:56Z" duration-ms="1761" status="PASS">
+        <test-method signature="sendOtpTest()[pri:1, instance:com.apitest.tests.SanaPlatformTest@5c9ac4cc]" started-at="2026-03-12T00:03:45 EET" name="sendOtpTest" finished-at="2026-03-12T00:03:47 EET" duration-ms="1521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendOtpTest -->
-        <test-method signature="verifyOtpTest()[pri:2, instance:com.apitest.tests.SanaPlatformTest@36f1046f]" started-at="2026-03-11T21:09:56Z" name="verifyOtpTest" finished-at="2026-03-11T21:09:57Z" duration-ms="112" status="PASS">
+        <test-method signature="verifyOtpTest()[pri:2, instance:com.apitest.tests.SanaPlatformTest@5c9ac4cc]" started-at="2026-03-12T00:03:47 EET" name="verifyOtpTest" finished-at="2026-03-12T00:03:47 EET" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOtpTest -->
-        <test-method signature="editProfileTest()[pri:3, instance:com.apitest.tests.SanaPlatformTest@36f1046f]" started-at="2026-03-11T21:09:57Z" name="editProfileTest" finished-at="2026-03-11T21:09:57Z" depends-on-methods="com.apitest.tests.SanaPlatformTest.verifyOtpTest" duration-ms="69" status="PASS">
+        <test-method signature="editProfileTest()[pri:3, instance:com.apitest.tests.SanaPlatformTest@5c9ac4cc]" started-at="2026-03-12T00:03:47 EET" name="editProfileTest" finished-at="2026-03-12T00:03:47 EET" depends-on-methods="com.apitest.tests.SanaPlatformTest.verifyOtpTest" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editProfileTest -->
-        <test-method signature="listManualInvestmentTest()[pri:4, instance:com.apitest.tests.SanaPlatformTest@36f1046f]" started-at="2026-03-11T21:09:57Z" name="listManualInvestmentTest" finished-at="2026-03-11T21:09:57Z" depends-on-methods="com.apitest.tests.SanaPlatformTest.verifyOtpTest" duration-ms="46" status="PASS">
+        <test-method signature="listManualInvestmentTest()[pri:4, instance:com.apitest.tests.SanaPlatformTest@5c9ac4cc]" started-at="2026-03-12T00:03:47 EET" name="listManualInvestmentTest" finished-at="2026-03-12T00:03:47 EET" depends-on-methods="com.apitest.tests.SanaPlatformTest.verifyOtpTest" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listManualInvestmentTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.apitest.tests.SanaPlatformTest@36f1046f]" started-at="2026-03-11T21:09:57Z" name="tearDown" finished-at="2026-03-11T21:09:57Z" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.apitest.tests.SanaPlatformTest@5c9ac4cc]" started-at="2026-03-12T00:03:47 EET" name="tearDown" finished-at="2026-03-12T00:03:47 EET" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.apitest.tests.SanaPlatformTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Sana Platform Flow Tests -->
+  </suite> <!-- Sana Platform API Automation -->
 </testng-results>
