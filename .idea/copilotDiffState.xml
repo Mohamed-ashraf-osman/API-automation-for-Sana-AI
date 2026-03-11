@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="/BaseTest (snapshot).java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="/BaseTest (snapshot).java" />
+              <option name="originalContent" value="package com.apitest.base;&#10;&#10;import io.restassured.RestAssured;&#10;import io.restassured.filter.log.RequestLoggingFilter;&#10;import io.restassured.filter.log.ResponseLoggingFilter;&#10;import org.testng.annotations.BeforeClass;&#10;&#10;public class BaseTest {&#10;&#10;    @BeforeClass&#10;    public void setup() {&#10;        RestAssured.baseURI = &quot;https://api.example.com&quot;;&#10;        RestAssured.filters(&#10;            new RequestLoggingFilter(),&#10;            new ResponseLoggingFilter()&#10;        );&#10;    }&#10;}&#10;&#10;" />
+              <option name="updatedContent" value="package com.apitest.base;&#10;&#10;import io.restassured.RestAssured;&#10;import io.restassured.filter.log.RequestLoggingFilter;&#10;import io.restassured.filter.log.ResponseLoggingFilter;&#10;import org.testng.annotations.BeforeClass;&#10;&#10;public class BaseTest {&#10;&#10;    @BeforeClass&#10;    public void setup() {&#10;        RestAssured.baseURI = &quot;https://mock-server.postman.com&quot;;&#10;        RestAssured.filters(&#10;            new RequestLoggingFilter(),&#10;            new ResponseLoggingFilter()&#10;        );&#10;    }&#10;}&#10;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

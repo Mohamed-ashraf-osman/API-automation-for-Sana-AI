@@ -1,0 +1,4 @@
+com\apitest\utils\MockServerUtil.class
+com\apitest\tests\SanaPlatformTest.class
+com\apitest\base\BaseTest.class
+com\apitest\utils\AllureReportUtil.class

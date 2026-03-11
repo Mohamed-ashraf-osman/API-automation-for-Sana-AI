@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sana Platform API Automation" verbose="2" parallel="false">
+    <test name="Sana Platform Flow Tests">
+        <classes>
+            <class name="com.apitest.tests.SanaPlatformTest"/>
+        </classes>
+    </test>
+</suite>
+
